@@ -1,8 +1,9 @@
 let navBar = document.getElementById("nav");
-navBar.insertAdjacentHTML("afterbegin", '<nav>\n' +
-    '    <div class="nav-wrapper white">\n' +
-    '      <a href="#" class="brand-logo black-text" style="padding-left: 15px">Resume</a>\n' +
+navBar.insertAdjacentHTML("afterbegin", '<nav class="white">\n' +
+    '    <div class="nav-wrapper">\n' +
+    '      <a href="index.html" class="brand-logo black-text">Resume</a>\n' +
     '      <ul id="nav-mobile" class="right hide-on-med-and-down">\n' +
+    '<li><a href="" class="black-text">Sass</a></li>' +
     '      </ul>\n' +
     '    </div>\n' +
     '  </nav>');
